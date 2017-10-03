@@ -1,0 +1,16 @@
+
+
+<ion-navbar *navbar> 
+  <ion-title> Radio UGD </ion-title> 
+</ion-navbar> 
+
+<ion-content class="back-app"> 
+          <section class="seccion"></section>
+        <div class="boton">
+            <button ion-button round color="danger" (click)="play()" class="ply" *ngIf="btnpause" ></button>
+            <button  ion-button round color="" (click)="pause()"  class="psu" *ngIf="btnplay" ></button>
+        </div>
+   
+   
+</ion-content>
+	<script type="text/javascript" src="loop.js"></script>
