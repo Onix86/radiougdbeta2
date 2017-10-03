@@ -1,0 +1,8 @@
+{
+  "name": "DESARROLLADOR/RadioUGD3",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
